@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  border: 0;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+body .background-image{
+  background-image: url("images/pier-8091934_1280.webp");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer {
+  box-sizing: border-box;
+  width: 600px;
+  height: 600px;
+  border-radius: 18px;
+  background: #fff;
+  padding: 50px 45px;
+  margin-top: 50px;
+}
+
+.searchInput {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchInput input {
+  font-size: 24px;
+  font-weight: 400;
+  color: #06283D;
+  text-transform: uppercase;
+
+}
+
+.searchInput i{
+  color: #b2533c;
+  font-size: 25px;
+}
+
+.searchInput input::placeholder{
+  font-size: 20px;
+  font-weight: 500;
+  color: #9b9b9b;
+  text-transform: capitalize;
+
+}
+
+.searchInput button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.searchInput button:hover {
+  background-color: #f1f1f1d7;
+}
+
+.weather-part {
+  text-align: center;
+  color: #2c2635;
+}
+
+.weather-part .temprature{
+  font-size: 60px;
+  font-weight: 250;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.weather-part .description{
+  font-size: 25px;
+  font-weight: 50;
+}
+
+.weather-details{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.weather-details .column-wind{
+  padding-left: 40px;
+}
+
+.weather-details .column-humidity{
+  padding-right: 50px;
+}
+
+.weather-part .numb-W{
+  color: #2c2635;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.weather-part .numb-H{
+  color: #2c2635;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.weather-details i{
+  color: #b2533c;
+  font-size: 40px;
+  padding-bottom: 35px;
+}
+
+.weather-details p{
+  color:#2c2635;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+
+
